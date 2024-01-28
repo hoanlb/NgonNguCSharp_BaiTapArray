@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgonNguCSharp_BaiTapArray_TinhTongCacPhanTu", "NgonNguCSharp_BaiTapArray_TinhTongCacPhanTu\NgonNguCSharp_BaiTapArray_TinhTongCacPhanTu.csproj", "{E874A014-B1BC-4E7D-9275-3CD4C373D2F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgonNguCSharp_BaiTapArray_TimGiaTriTrongMang", "NgonNguCSharp_BaiTapArray_TimGiaTriTrongMang\NgonNguCSharp_BaiTapArray_TimGiaTriTrongMang.csproj", "{84E1495E-E28B-4560-955E-45B9FA937FC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E874A014-B1BC-4E7D-9275-3CD4C373D2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E874A014-B1BC-4E7D-9275-3CD4C373D2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E874A014-B1BC-4E7D-9275-3CD4C373D2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E1495E-E28B-4560-955E-45B9FA937FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E1495E-E28B-4560-955E-45B9FA937FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E1495E-E28B-4560-955E-45B9FA937FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E1495E-E28B-4560-955E-45B9FA937FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
