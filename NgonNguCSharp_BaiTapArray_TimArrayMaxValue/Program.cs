@@ -11,7 +11,6 @@ namespace NgonNguCSharp_BaiTapArray_TimArrayMaxValue
         static void Main(string[] args)
         {
             int n;
-            int arraySum = 0;
 
             Console.WriteLine("Enter the number of elements in the array:");
             n = int.Parse(Console.ReadLine());
@@ -30,11 +29,14 @@ namespace NgonNguCSharp_BaiTapArray_TimArrayMaxValue
             for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write(numbers[i] + " ");
-                arraySum = arraySum + numbers[i];
+                if (numbers[i] > arrayMaxValue)
+                {
+                    arrayMaxValue = numbers[i];
+                }
             }
 
             Console.WriteLine();
-            Console.WriteLine("Array max value is: " + arraySum);
+            Console.WriteLine("Array max value is: " + arrayMaxValue);
 
             Console.ReadKey();
         }
